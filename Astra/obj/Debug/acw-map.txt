@@ -1,0 +1,8 @@
+Astra.MainActivity, Astra;md507d8cbdde9bdb2e91a502de81770cecb.MainActivity
+Astra.MainActivity, Astra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md507d8cbdde9bdb2e91a502de81770cecb.MainActivity
+Astra.MainActivity;md507d8cbdde9bdb2e91a502de81770cecb.MainActivity
+astra.MainActivity;md507d8cbdde9bdb2e91a502de81770cecb.MainActivity
+Astra.SuitActivity, Astra;md507d8cbdde9bdb2e91a502de81770cecb.SuitActivity
+Astra.SuitActivity, Astra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md507d8cbdde9bdb2e91a502de81770cecb.SuitActivity
+Astra.SuitActivity;md507d8cbdde9bdb2e91a502de81770cecb.SuitActivity
+astra.SuitActivity;md507d8cbdde9bdb2e91a502de81770cecb.SuitActivity

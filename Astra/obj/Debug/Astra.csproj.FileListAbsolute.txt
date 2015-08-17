@@ -1,0 +1,15 @@
+D:\Astra\Astra\Astra\bin\Debug\Astra.dll
+D:\Astra\Astra\Astra\bin\Debug\Astra.pdb
+D:\Astra\Astra\Astra\bin\Debug\Astra.Astra.apk
+D:\Astra\Astra\Astra\bin\Debug\Astra.Astra-Signed.apk
+D:\Astra\Astra\Astra\obj\Debug\Astra.csprojResolveAssemblyReference.cache
+D:\Astra\Astra\Astra\obj\Debug\Astra.dll
+D:\Astra\Astra\Astra\obj\Debug\Astra.pdb
+D:\Astra\Astra\Astra\obj\Debug\android\bin\Astra.Astra.apk
+D:\Astra\Astra\Astra\obj\Debug\res\layout\main.xml
+D:\Astra\Astra\Astra\obj\Debug\res\values\strings.xml
+D:\Astra\Astra\Astra\obj\Debug\res\drawable\icon.png
+D:\Astra\Astra\Astra\obj\Debug\R.cs.flag
+D:\Astra\Astra\Astra\obj\Debug\uploadflags.txt
+D:\Astra\Astra\Astra\obj\Debug\res\layout\suit.xml
+D:\Astra\Astra\Astra\obj\Debug\res\layout\cardlistitem.xml

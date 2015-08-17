@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">Астра</string>
+    <string name="HighArkan">Высшие арканы</string>
+    <string name="CupSuit">Кубки</string>
+    <string name="SwordSuit">Мечи</string>
+    <string name="PentacleSuit">Пентакли</string>
+    <string name="StaffSuit">Посох</string>
+</resources>

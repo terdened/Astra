@@ -1,0 +1,7 @@
+D:\Astra\Astra\Astra\obj\Debug\assemblies\Astra.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\Mono.Android.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\mscorlib.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\System.Core.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\System.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\System.Xml.dll
+D:\Astra\Astra\Astra\obj\Debug\assemblies\System.Xml.Linq.dll
