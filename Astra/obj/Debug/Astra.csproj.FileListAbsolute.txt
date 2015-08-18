@@ -13,3 +13,4 @@ D:\Astra\Astra\Astra\obj\Debug\R.cs.flag
 D:\Astra\Astra\Astra\obj\Debug\uploadflags.txt
 D:\Astra\Astra\Astra\obj\Debug\res\layout\suit.xml
 D:\Astra\Astra\Astra\obj\Debug\res\layout\cardlistitem.xml
+D:\Astra\Astra\Astra\obj\Debug\res\layout\carddetails.xml

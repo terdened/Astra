@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ApplicationName">Астра</string>
+    <string name="DescriptionTitle">Описание</string>
+  
     <string name="HighArkan">Высшие арканы</string>
     <string name="CupSuit">Кубки</string>
     <string name="SwordSuit">Мечи</string>
     <string name="PentacleSuit">Пентакли</string>
-    <string name="StaffSuit">Посох</string>
+    <string name="StaffSuit">Жезлы</string>
+  
+    <string name="CupTitle">кубков</string>
+    <string name="SwordTitle">мечей</string>
+    <string name="PentacleTitle">пентаклей</string>
+    <string name="StaffTitle">жезлов</string>
+
+    <string name="OneTitle">Туз</string>
+    <string name="TwoTitle">Двойка</string>
+    <string name="ThreeTitle">Тройка</string>
+    <string name="FourTitle">Четверка</string>
+    <string name="FiveTitle">Пятерка</string>
+    <string name="SixTitle">Шестерка</string>
+    <string name="SevenTitle">Семерка</string>
+    <string name="EightTitle">Восьмерка</string>
+    <string name="NineTitle">Девятка</string>
+    <string name="TenTitle">Десятка</string>
+    <string name="ElevenTitle">Паж</string>
+    <string name="TwelveTitle">Рыцарь</string>
+    <string name="ThirteenTitle">Королева</string>
+    <string name="FourteenTitle">Король</string>
 </resources>

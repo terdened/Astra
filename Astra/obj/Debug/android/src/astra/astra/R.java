@@ -15,24 +15,48 @@ public final class R {
         public static final int monoandroidsplash=0x7f020001;
     }
     public static final class id {
-        public static final int CupSuit=0x7f060001;
-        public static final int HighArkan=0x7f060000;
-        public static final int PentacleSuit=0x7f060002;
-        public static final int StaffSuit=0x7f060004;
-        public static final int SwordSuit=0x7f060003;
+        public static final int CupSuit=0x7f060005;
+        public static final int Description=0x7f060003;
+        public static final int DescriptionTitle=0x7f060002;
+        public static final int HighArkan=0x7f060004;
+        public static final int PentacleSuit=0x7f060006;
+        public static final int Poster=0x7f060001;
+        public static final int StaffSuit=0x7f060008;
+        public static final int SwordSuit=0x7f060007;
+        public static final int Title=0x7f060000;
     }
     public static final class layout {
-        public static final int cardlistitem=0x7f030000;
-        public static final int main=0x7f030001;
-        public static final int suit=0x7f030002;
+        public static final int carddetails=0x7f030000;
+        public static final int cardlistitem=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int suit=0x7f030003;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040000;
-        public static final int CupSuit=0x7f040002;
-        public static final int HighArkan=0x7f040001;
-        public static final int PentacleSuit=0x7f040004;
-        public static final int StaffSuit=0x7f040005;
-        public static final int SwordSuit=0x7f040003;
+        public static final int CupSuit=0x7f040003;
+        public static final int CupTitle=0x7f040007;
+        public static final int DescriptionTitle=0x7f040001;
+        public static final int EightTitle=0x7f040012;
+        public static final int ElevenTitle=0x7f040015;
+        public static final int FiveTitle=0x7f04000f;
+        public static final int FourTitle=0x7f04000e;
+        public static final int FourteenTitle=0x7f040018;
+        public static final int HighArkan=0x7f040002;
+        public static final int NineTitle=0x7f040013;
+        public static final int OneTitle=0x7f04000b;
+        public static final int PentacleSuit=0x7f040005;
+        public static final int PentacleTitle=0x7f040009;
+        public static final int SevenTitle=0x7f040011;
+        public static final int SixTitle=0x7f040010;
+        public static final int StaffSuit=0x7f040006;
+        public static final int StaffTitle=0x7f04000a;
+        public static final int SwordSuit=0x7f040004;
+        public static final int SwordTitle=0x7f040008;
+        public static final int TenTitle=0x7f040014;
+        public static final int ThirteenTitle=0x7f040017;
+        public static final int ThreeTitle=0x7f04000d;
+        public static final int TwelveTitle=0x7f040016;
+        public static final int TwoTitle=0x7f04000c;
     }
     public static final class style {
         public static final int Mono_Android_Theme_Splash=0x7f050000;

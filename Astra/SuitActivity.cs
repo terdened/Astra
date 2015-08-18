@@ -10,6 +10,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Content.Res;
 
 namespace Astra
 {
@@ -18,14 +19,33 @@ namespace Astra
     {
         private string[] items;
         private int Type;
+        private int[] Sign =  {
+                Resource.String.OneTitle,
+                Resource.String.TwoTitle,
+                Resource.String.ThreeTitle,
+                Resource.String.FourTitle,
+                Resource.String.FiveTitle,
+                Resource.String.SixTitle,
+                Resource.String.SevenTitle,
+                Resource.String.EightTitle,
+                Resource.String.NineTitle,
+                Resource.String.TenTitle,
+                Resource.String.ElevenTitle,
+                Resource.String.TwelveTitle,
+                Resource.String.ThirteenTitle,
+                Resource.String.FourteenTitle,
+            };
+        private Resources Res;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Suit);
 
             Type = Intent.GetIntExtra("SuitType", -1);
+            Res = this.Resources;
 
-            switch(Type)
+            switch (Type)
             {
                 case 1:
                     LoadHighArkan();
@@ -49,37 +69,88 @@ namespace Astra
 
         private void LoadHighArkan()
         {
-            String[] sign =  {"Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева",
-                "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы"};
-            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, sign);
+            var titleList = new List<String>();
+
+            for(int i = 0; i < 14; i++)
+            {
+                titleList.Add(
+                    String.Format("{0} {1}",
+                    Res.GetString(Sign[i]),
+                    Res.GetString(Resource.String.CupTitle)));
+            }
+
+            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, titleList);
         }
 
         private void LoadCupSuit()
         {
-            String[] sign =  {"Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева",
-                "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы"};
-            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, sign);
+            var titleList = new List<String>();
+
+            for (int i = 0; i < 14; i++)
+            {
+                titleList.Add(
+                    String.Format("{0} {1}",
+                    Res.GetString(Sign[i]),
+                    Res.GetString(Resource.String.CupTitle)));
+            }
+
+            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, titleList);
         }
 
         private void LoadSwordSuit()
         {
-            String[] sign =  {"Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева",
-                "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы"};
-            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, sign);
+            var titleList = new List<String>();
+
+            for (int i = 0; i < 14; i++)
+            {
+                titleList.Add(
+                    String.Format("{0} {1}",
+                    Res.GetString(Sign[i]),
+                    Res.GetString(Resource.String.SwordTitle)));
+            }
+
+            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, titleList);
         }
 
         private void LoadPentacle()
         {
-            String[] sign =  {"Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева",
-                "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы"};
-            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, sign);
+            var titleList = new List<String>();
+
+            for (int i = 0; i < 14; i++)
+            {
+                titleList.Add(
+                    String.Format("{0} {1}",
+                    Res.GetString(Sign[i]),
+                    Res.GetString(Resource.String.PentacleTitle)));
+            }
+
+            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, titleList);
         }
 
         private void LoadStaff()
         {
-            String[] sign =  {"Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева",
-                "Весы", "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы"};
-            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, sign);
+            var titleList = new List<String>();
+
+            for (int i = 0; i < 14; i++)
+            {
+                titleList.Add(
+                    String.Format("{0} {1}",
+                    Res.GetString(Sign[i]),
+                    Res.GetString(Resource.String.StaffTitle)));
+            }
+
+            ListAdapter = new ArrayAdapter<String>(this, Resource.Layout.CardListItem, titleList);
+        }
+
+        protected override void OnListItemClick(ListView l, View v, int position, long id)
+        {
+            var t = items[position];
+
+            Intent cardDetailsIntent = new Intent(this, typeof(CardDetailsActivity));
+            cardDetailsIntent.PutExtra("Sign", t);
+            cardDetailsIntent.PutExtra("Suit", Type);
+
+            StartActivity(cardDetailsIntent);
         }
     }
 }

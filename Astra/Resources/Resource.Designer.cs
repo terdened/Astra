@@ -63,20 +63,32 @@ namespace Astra
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int CupSuit = 2131099649;
-			
-			// aapt resource value: 0x7f060000
-			public const int HighArkan = 2131099648;
-			
-			// aapt resource value: 0x7f060002
-			public const int PentacleSuit = 2131099650;
-			
-			// aapt resource value: 0x7f060004
-			public const int StaffSuit = 2131099652;
+			// aapt resource value: 0x7f060005
+			public const int CupSuit = 2131099653;
 			
 			// aapt resource value: 0x7f060003
-			public const int SwordSuit = 2131099651;
+			public const int Description = 2131099651;
+			
+			// aapt resource value: 0x7f060002
+			public const int DescriptionTitle = 2131099650;
+			
+			// aapt resource value: 0x7f060004
+			public const int HighArkan = 2131099652;
+			
+			// aapt resource value: 0x7f060006
+			public const int PentacleSuit = 2131099654;
+			
+			// aapt resource value: 0x7f060001
+			public const int Poster = 2131099649;
+			
+			// aapt resource value: 0x7f060008
+			public const int StaffSuit = 2131099656;
+			
+			// aapt resource value: 0x7f060007
+			public const int SwordSuit = 2131099655;
+			
+			// aapt resource value: 0x7f060000
+			public const int Title = 2131099648;
 			
 			static Id()
 			{
@@ -92,13 +104,16 @@ namespace Astra
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int CardListItem = 2130903040;
+			public const int CardDetails = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int CardListItem = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Suit = 2130903042;
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Suit = 2130903043;
 			
 			static Layout()
 			{
@@ -116,20 +131,77 @@ namespace Astra
 			// aapt resource value: 0x7f040000
 			public const int ApplicationName = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int CupSuit = 2130968578;
+			// aapt resource value: 0x7f040003
+			public const int CupSuit = 2130968579;
+			
+			// aapt resource value: 0x7f040007
+			public const int CupTitle = 2130968583;
 			
 			// aapt resource value: 0x7f040001
-			public const int HighArkan = 2130968577;
+			public const int DescriptionTitle = 2130968577;
 			
-			// aapt resource value: 0x7f040004
-			public const int PentacleSuit = 2130968580;
+			// aapt resource value: 0x7f040012
+			public const int EightTitle = 2130968594;
+			
+			// aapt resource value: 0x7f040015
+			public const int ElevenTitle = 2130968597;
+			
+			// aapt resource value: 0x7f04000f
+			public const int FiveTitle = 2130968591;
+			
+			// aapt resource value: 0x7f04000e
+			public const int FourTitle = 2130968590;
+			
+			// aapt resource value: 0x7f040018
+			public const int FourteenTitle = 2130968600;
+			
+			// aapt resource value: 0x7f040002
+			public const int HighArkan = 2130968578;
+			
+			// aapt resource value: 0x7f040013
+			public const int NineTitle = 2130968595;
+			
+			// aapt resource value: 0x7f04000b
+			public const int OneTitle = 2130968587;
 			
 			// aapt resource value: 0x7f040005
-			public const int StaffSuit = 2130968581;
+			public const int PentacleSuit = 2130968581;
 			
-			// aapt resource value: 0x7f040003
-			public const int SwordSuit = 2130968579;
+			// aapt resource value: 0x7f040009
+			public const int PentacleTitle = 2130968585;
+			
+			// aapt resource value: 0x7f040011
+			public const int SevenTitle = 2130968593;
+			
+			// aapt resource value: 0x7f040010
+			public const int SixTitle = 2130968592;
+			
+			// aapt resource value: 0x7f040006
+			public const int StaffSuit = 2130968582;
+			
+			// aapt resource value: 0x7f04000a
+			public const int StaffTitle = 2130968586;
+			
+			// aapt resource value: 0x7f040004
+			public const int SwordSuit = 2130968580;
+			
+			// aapt resource value: 0x7f040008
+			public const int SwordTitle = 2130968584;
+			
+			// aapt resource value: 0x7f040014
+			public const int TenTitle = 2130968596;
+			
+			// aapt resource value: 0x7f040017
+			public const int ThirteenTitle = 2130968599;
+			
+			// aapt resource value: 0x7f04000d
+			public const int ThreeTitle = 2130968589;
+			
+			// aapt resource value: 0x7f040016
+			public const int TwelveTitle = 2130968598;
+			
+			// aapt resource value: 0x7f04000c
+			public const int TwoTitle = 2130968588;
 			
 			static String()
 			{
